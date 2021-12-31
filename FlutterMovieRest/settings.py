@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-5793c(1t^q1y$-yyf0mht#)ak8!9v2yk2^gq5ifrs&^582l&==
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = ['0.0.0.0', 'flutter-movie-api.herokuapp.com']
 
 
 # Application definition
