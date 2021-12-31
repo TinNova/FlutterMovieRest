@@ -78,8 +78,12 @@ WSGI_APPLICATION = 'FlutterMovieRest.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'dbnstpgvq757kd',
+        'HOST': 'ec2-54-217-232-239.eu-west-1.compute.amazonaws.com',
+        'PORT': '5432',
+        'USER': 'umrrxfdubwcmgc',
+        'PASSWORD': '3a8aa9456731b8e0a06570ea131394f8e3a3e57029f3eb58e3eca1abfe82cba0'
     }
 }
 
