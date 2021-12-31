@@ -1,1 +1,0 @@
-web: gunicorn FlutterMovieRest.wsgi
